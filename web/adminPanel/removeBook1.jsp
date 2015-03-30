@@ -1,13 +1,14 @@
 <%-- 
-    Document   : SearchStocks
-    Created on : Mar 23, 2015, 6:01:13 PM
-    Author     : Khaushalya
+    Document   : removePage1
+    Created on : Mar 23, 2015, 5:25:42 PM
+    Author     : Chami
 --%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="style.css"/>
 
                         <%--Bootsrap CSS files--%>
@@ -27,33 +28,31 @@
     </head>
     <body>
         <div class="container" style="background-color:#F5F5F0">
-            <%@include file="HeaderFiles/bookHeader.jsp"%>     
-                <div class="row">
-                    <%-- left side --%>
-                    <div class="col-lg-2">
-                        <ul class="nav nav-pills nav-stacked">
-                              <li role="presentation" class="text_box" style="padding: 0px; text-align: left;">Stocks</li>
-                            <li>
+            <%@include file="HeaderFiles/bookHeader.jsp"%>           
+            <div class="row">
+                <%--left side navigation--%>
+                <div class="col-lg-2" >
+                    <ul class="nav nav-pills nav-stacked ">
+                        <li role="presentation" class="text_box" style="padding: 0px; text-align: left;">Books</li>
+                        <li>
                             <div id="topmenu">
-                            <ul class="nav nav-pills nav-stacked topmenu">
-                                 <li role="presentation"><a href="AddBookStocks.jsp"><font style="color: orange">Add Book Stocks</font></a></li>
-                                   <li role="presentation"><a href="EditStock.jsp"><font style="color: orange">Edit Book Stocks</font></a></li>
-                                <li role="presentation"><a href="DeleteStocks.jsp"><font style="color: orange">Delete Stocks</font></a></li>
-                               <li role="presentation" class="active"><a href="#">Search Book Stocks</a></li>
-                            </ul>
+                                <ul class="nav nav-pills nav-stacked topmenu">
+                                    <li role="presentation"><a href="#"><font style="color: orange">Add Book</font></a></li>
+                                    <li role="presentation"><a href="#"><font style="color: orange">Modify Book</font></a></li>
+                                    <li role="presentation" class="active" ><a href="#">Remove Book</a></li>
+                                </ul>
                             </div>
                         </li>
-                            
-                        </ul>
-                    </div>
-               <div class="col-xs-1">&nbsp;</div>
+                    </ul>  
+                </div>
+                <div class="col-xs-1">&nbsp;</div>
                 <%--left side navigation end--%>
-               
-                 <div class="col-lg-9">
-                     <br><br>
+                <div class="col-lg-9">
+                    <div class="row">&nbsp;</div>
+                    <div class="row">&nbsp;</div>
                     <div class="col-lg-12">
                         <div class="row">
-                            <label><h4>Search Stock</h4></label>
+                            <label><h4>Search Book For Remove</h4></label>
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div id="orange">
@@ -71,16 +70,39 @@
                         
                     </div>
                 </div>
-              
             </div>
-         <br><br><br><br><br><br>
+
+            <div class="row">
+                &nbsp;
+            </div>
+            <div class="row">
+                &nbsp;
+            </div>
+                <div class="row">
+                &nbsp;
+            </div>
+            <div class="row">
+                &nbsp;
+            </div>
+                <div class="row">
+                &nbsp;
+            </div>
+            <div class="row">
+                &nbsp;
+            </div>
+                <div class="row">
+                &nbsp;
+            </div>
+            <div class="row">
+                &nbsp;
+            </div>
             <div class="row" >
                 <ol class="breadcrumb" style="background-color:#FF9933">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Library</a></li>
                     <li class="active">Data</li>
                 </ol>
-            </div> 
-        </div>
+            </div>            
+        </div>        
     </body>
 </html>

@@ -36,13 +36,13 @@
         <%-- sub menus--%>
         <div class="row">
             <div class="col-lg-1">
-                <a href="#"><img src="http://localhost:8080/BookStore/adminPanel/Images/Page icons/Home.png" class="image" width="100%" alt="Responsive image" title="Home"></a>
+                <a href="adminStartPage.jsp"><img src="http://localhost:8080/BookStore/adminPanel/Images/Page icons/Home.png" class="image" width="100%" alt="Responsive image" title="Home"></a>
             </div>
             <div class="col-lg-1">
-                <a href="#"><img src="http://localhost:8080/BookStore/adminPanel/Images/Page icons/Books.png" class="image" width="100%" alt="Responsive image" title="Books" ></a>
+                <a href="addBook.jsp"><img src="http://localhost:8080/BookStore/adminPanel/Images/Page icons/Books.png" class="image" width="100%" alt="Responsive image" title="Books" ></a>
             </div>
             <div class="col-lg-1">
-                <a href="#"><img src="http://localhost:8080/BookStore/adminPanel/Images/Page icons/Author.png" class="image" width="100%" alt="Responsive image" title="Authors"></a>
+                <a href="addAuthors.jsp"><img src="http://localhost:8080/BookStore/adminPanel/Images/Page icons/Author.png" class="image" width="100%" alt="Responsive image" title="Authors"></a>
             </div>
             <div class="col-lg-1">
                 <a href="#"><img src="http://localhost:8080/BookStore/adminPanel/Images/Page icons/Clients.png" class="image" width="100%" alt="Responsive image" title="Clients"></a>
@@ -54,7 +54,7 @@
                 <img src="http://localhost:8080/BookStore/adminPanel/Images/Page icons/Stocks.png" class="image" width="100%" alt="Responsive image" title="Stocks" style="opacity: 0.5">
             </div>
             <div class="col-lg-1">
-                <a href="#"><img src="http://localhost:8080/BookStore/adminPanel/Images/Page icons/Suppliers.png" class="image" width="100%" alt="Responsive image" title="Suppliers"></a>
+                <a href="addSuppliers.jsp"><img src="http://localhost:8080/BookStore/adminPanel/Images/Page icons/Suppliers.png" class="image" width="100%" alt="Responsive image" title="Suppliers"></a>
             </div>
             <div class="col-lg-1">
                 <a href="#"><img src="http://localhost:8080/BookStore/adminPanel/Images/Page icons/Order.png" class="image" width="100%" alt="Responsive image" title="Orders"></a>
