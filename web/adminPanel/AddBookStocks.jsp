@@ -29,7 +29,7 @@
     </head>
     <body>
         <div class="container" style="background-color:#F5F5F0">
-            <%@include file="HeaderFiles/bookHeader.jsp"%>
+            <%@include file="HeaderFiles/stockHeader.jsp"%>
                 <div class="row">
                     <%-- left side navigation --%>
                     <div class="col-lg-2">
